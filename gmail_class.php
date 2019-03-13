@@ -18,14 +18,13 @@
 
 			$count_mess =  count($resp->messages);
 
-			#Here get the ids of this user
+		
 
 			for($i=0;$i<$count_mess;$i++){
 
 				$id_messages[] =  $resp->messages;
 
 			}
-			#Now you have the emails of this user , in the next code set the ids to a api for read mails relaction with id
 
 			for($i=0;$i<count($id_messages[0]);$i++){
 
